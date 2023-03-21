@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --font: "Work Sans", sans-serif;
+}
+html {
+
+}
+body {
+  padding: 0;
+  margin: 0;
+  font: 300 16px var(--font);
+  grid-template: "hd hd hd as" auto
+                  "mn mn mn as" auto
+                  "ft ft ft ft" auto
+                   / 1fr 1fr 1fr;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  grid-area: hd;
+  padding: 1.2rem 2.0rem;
+}
+
+main {
+  grid-area: mn;
+}
+
+footer {
+  grid-area: ft;
+}
+
+/* Mobile devices */
+@media (min-width: 341px) and (max-width: 762px) {
+  body {
+    padding: 0;
+    margin: 0;
+    font: 300 14.6px var(--font);
+  }
+}
+
+/* tablets and ipads */
+@media (min-width: 769px) and (max-width: 1023px) {
+  body {
+    padding: 0;
+    margin: 0;
+    font: 300 15px var(--font);
+  }
+}
