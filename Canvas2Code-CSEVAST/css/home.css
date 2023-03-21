@@ -1,0 +1,364 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+.mi-n {
+    padding-top: 3.6px;
+}
+:root {
+    --font: "Oswald", sans-serif;
+    --lf: "Arial", sans-serif;
+    --bg: #0d1514;
+    --acc: #c3c4b6;
+}
+a {
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font: 400 15px var(--font);
+    display: grid;
+    grid-template: 
+                    "a1 a1 a1" auto
+                    "a2 a2 a2" auto
+                    "ft ft ft" auto 
+                    / 1fr 1fr 1fr;
+     
+    background: var(--bg);
+    color: var(--textcol);
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: none;
+    padding: 1rem 2.0rem;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+div.logo, .logo > a {
+    color: var(--acc);
+    font: 300 1.4rem var(--font);
+    display: flex;
+    align-items: center;
+}
+
+.nav-cont {
+    display: flex;
+    align-items: center;
+}
+.nav-cont > a {
+    font: 300 0.8rem var(--font);
+    color: var(--acc);
+    margin: auto;
+    padding: 0.4rem 2rem;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+.nav-cont > a:hover {
+    font-size: 1.0rem;
+    border-left: 2px solid var(--acc);
+    transition: 0.4s;
+}
+div.cta-div {
+  padding: 0.6rem 4rem 1rem;
+}
+.title {
+    font: 600 3.2rem var(--lf);
+    -webkit-text-stroke: 1.2px var(--acc);
+    text-stroke: 1.2px  var(--acc);
+    letter-spacing: 1.8px;
+    color: transparent;
+    margin: 0;
+    padding: 4rem 0 2rem;
+}
+div.cta-c {
+    display: flex;
+    flex-flow: row nowrap;
+}
+div.cta-c > a {
+    letter-spacing: 2px;
+    padding: 0.6rem 1rem;
+    font-size: 0.74rem;
+    margin-right: 0.8rem;
+    background: none;
+    border: 1px solid var(--acc);
+    color: var(--acc);
+    display: flex;
+    align-items: center;
+}
+div.cta-c > a:hover, .gallery > img:hover {
+    transition: 0.4s ease;
+    transform: scale(1.2);
+    box-shadow: 1px 1px 18px var(--acc);
+}
+.cta-ic {
+    margin-left: 0.8rem;
+    font-size: 1px;
+}
+div.slider {
+    position: relative;
+    min-height: 12vh;
+    background: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.slider .arrows {
+    color: transparent;
+    -webkit-text-stroke: 1px var(--acc);
+    text-decoration: 1px var(--acc);
+    font-size: 4rem;
+    margin: 0.8rem;
+    padding: 0;
+}
+.ar-ic {
+    box-shadow: 1px 1px 18px #0d1514;
+}
+section.a1 {
+    grid-area: a1;
+    min-height: 100vh;
+    background: #333 url(../images/skyline.jpeg) center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+div.gallery {
+    position: absolute;
+    right: 0;
+    bottom: 2rem;
+    max-width: 100%;
+    height: 140px;
+    background: var(--acc);
+    padding: 2px;
+    box-shadow: 1px 1px 18px #0d1514;
+}
+.gallery > img {
+    width: auto;
+    height: 140px;
+}
+section.a2 {
+    grid-area: a2;
+    background: linear-gradient(45deg, #161414, #252323);
+}
+div.h1-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.h1-line > h1 {
+    font: 800 2.4rem var(--font);
+    color: var(--acc);
+}
+div.line {
+    width: 60%;
+    margin-left: 1rem;
+    height: 2px;
+    background: var(--acc);
+}
+div.cards-cont {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.cards {
+    width: 24%;
+    height: 220px;
+    background: var(--acc);
+    position: relative;
+    padding: 2px;
+    border-radius: 8px;
+}
+.cards:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: 0.8s ease;
+}
+.cards > img {
+    width: 100%;
+    height: 100%;
+}
+.sub-info {
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+    right: 2px;
+    padding: 0 0.8rem;
+    background: var(--bg);
+    border-radius: 6px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.minfo > p {
+    color: var(--acc);
+}
+.btxt {
+    display: block;
+    font-size: 0.6rem;
+    padding: 2px;
+}
+.cardic {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.cardic > span {
+    color: var(--acc);
+    display: block;
+    width: 28px;
+    height: 28px;
+    border: 2px solid #c3c4b660;
+    border-radius: 4pt;
+    margin-left: 0.4rem;
+}
+div.showcase {
+    width: 100%;
+    background: #000 url(../images/gtr2.jpeg) center no-repeat;
+    background-size: cover;
+    padding: 2.0rem;
+    margin: 2rem 0;
+}
+.showcase h1 {
+    color: var(--acc);
+    margin-left: auto;
+    text-align: right;
+    font-size: 2.6rem;
+    -webkit-text-stroke: 2px solid #333;
+    text-stroke: 2px solid #333;
+}
+div.search {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+input {
+    width: 300px;
+    height: 36px;
+    background: none;
+    border: 1px solid var(--acc);
+    border-radius: 4pt;
+    margin-right: 0.4rem;
+    color: var(--acc);
+}
+button.srch {
+    height: 36px;
+    width: 36px;
+    background: var(--acc);
+    color: #111;
+    border: none;
+    border-radius: 4pt;
+}
+button.srch:hover {
+    transform: scale(1);
+}
+div.quest {
+    text-align: center;
+}
+.quest h2 {
+    color: #eee;
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 0;
+}
+.quest p {
+    color: var(--acc);
+}
+footer {
+    display: block;
+    padding: 2rem;
+    grid-area: ft;
+}
+div.endt {
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--acc);
+}
+div.foot-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem;
+}
+.foot-cont > a {
+    color: var(--acc);
+    padding: 0.2rem 0.6rem;
+    margin: 0 2rem;
+}
+.pp {
+    text-align: center;
+}
+.pp > a {
+    color: var(--acc);
+    font-size: 0.8rem;
+}
+@media (max-width: 900px) {
+    body {
+        font-size: 14px;
+        grid-template: 
+        "a1 a1 a1" auto
+        "a2 a2 a2" auto
+        "ft ft ft" auto 
+        / auto auto auto;
+    }
+    section.a1 {
+        min-height: 80vh;
+    }
+    .logo > a {
+        font-size: 1.0rem;
+        display: none;
+    }
+    div.cta-div{
+        padding: 2.4rem 0.6rem 0;
+    }
+    .title {
+        font-size: 2.6rem;
+        padding: 2rem;
+        text-align: center;
+    }
+    div.cta-c {
+        justify-content: center;
+    }
+    a.xcut {
+        display: none;
+    }
+    div.slider {
+        display: none;
+    }
+    div.gallery {
+        height: 122px;
+        max-width: 100%;
+        
+    }
+    .gallery > img {
+        width: auto;
+        height: 122px;
+    }
+    .cards {
+        width: 60%;
+        height: auto;
+        margin: 0.6rem;
+    }
+    .cardic > span {
+        border: none;
+    }
+    .h1-line > h1 {
+        font-size: 1.2rem;
+    }
+    input[type='text'] {
+        width: 260px;
+    }
+    .showcase h1 {
+        font-size: 1.68rem;
+    }
+    .foot-cont > a {
+        margin: 0 1.0rem;
+    }
+}
