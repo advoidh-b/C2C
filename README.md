@@ -1,4 +1,6 @@
-### Who I am and What i do.
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+### <i class="material-icons">search</i> Who I am and What i do.
 I'm a self-taught web designer and UIX specialist.<br><br>I've been in this field for 5+ years!<br><br>Here you'll find most of my works and collabs. Please take your time to look around!
 <br><br>
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/adwaithbc) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/advoidhbiju-b3989025a) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/advoidhb) 
