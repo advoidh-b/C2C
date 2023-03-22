@@ -1,5 +1,5 @@
 ### What i do?
-<br>I'm a self-taught web designer and UIX specialist.<br><br>I've worked on this field proudly for 5+ years!<br><br>Here you'll find most of my works and collabs. So, take your time to look around!
+<br>I'm a self-taught web designer and UIX specialist.<br><br>I've been in this field for 5+ years!<br><br>Here you'll find most of my works and collabs. Please take your time to look around!
 
 
 ### Connect with me
