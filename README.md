@@ -1,10 +1,9 @@
-
-### Brief
+### 👤 Brief
 I'm a self-taught web designer and UIX specialist.<br><br>I've been in this field for 5+ years!<br><br>Here you'll find most of my works and collabs. Please take your time to look around!
 <br><br>
 Contact me:
 <br><br>
-[![Gmail](https://img.shields.io/badge/Gmail-%23FFFFFF.svg?style=for-the-badge&logo=Gmail&logoColor=red)](mailto:delta.advoidh@gmail.com) &nbsp; [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/adwaithbc) &nbsp; [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/advoidhbiju-b3989025a) &nbsp; [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?style=for-the-badge&logo=Pinterest&logoColor=white)](https://pinterest.com/advoidhb)
+[![Gmail](https://img.shields.io/badge/Gmail-%23FFFFFF.svg?style=for-the-badge&logo=Gmail&logoColor=red)](mailto:delta.advoidh@gmail.com) &nbsp; [![Twitter](https://img.shields.io/badge/Twitter-%2331A8FF.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/AdvoidhB) &nbsp; [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/adwaithbc) &nbsp; [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/advoidhbiju-b3989025a) &nbsp; [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?style=for-the-badge&logo=Pinterest&logoColor=white)](https://pinterest.com/advoidhb) 
 
 
 ### Languages and Technologies
